@@ -1,0 +1,51 @@
+{
+  "experiment": "1N4004 random split, tuned RBF SVR",
+  "training_rows": 102,
+  "validation_rows": 34,
+  "test_rows": 34,
+  "random_state": 42,
+  "split_procedure": "20% final test split; then 25% of remaining rows for validation",
+  "pipeline": "StandardScaler + SVR(kernel='rbf')",
+  "grid": {
+    "C": [
+      1,
+      10,
+      100,
+      1000
+    ],
+    "epsilon": [
+      0.0001,
+      0.001,
+      0.005
+    ],
+    "gamma": [
+      "scale",
+      0.1,
+      1
+    ]
+  },
+  "cv_folds": 3,
+  "scoring": "negative mean absolute error",
+  "selected_parameters_from_notebook": {
+    "C": 100,
+    "epsilon": 0.0001,
+    "gamma": 1
+  },
+  "recomputed_best_parameters_in_current_runtime": {
+    "svr__C": 100,
+    "svr__epsilon": 0.0001,
+    "svr__gamma": 1
+  },
+  "recomputed_best_parameters_match_notebook": true,
+  "recomputed_best_cv_MAE_A": 0.0002689237422945725,
+  "notebook_best_cv_MAE_A": 0.0002689237422945725,
+  "max_abs_test_prediction_difference_packaged_vs_recomputed_A": 0.0,
+  "max_abs_validation_prediction_difference_packaged_vs_recomputed_A": 0.0,
+  "max_abs_random_forest_test_prediction_difference_packaged_vs_retrained_A": 0.0,
+  "validation_metrics_from_packaged_estimator": {
+    "MAE_A": 0.0002640418277135499,
+    "RMSE_A": 0.00030494416062469516,
+    "R2": 0.9990086235509109
+  },
+  "note": "The script reruns the notebook's three-fold GridSearchCV on the reconstructed training partition and exports all candidate CV results. Test metrics are calculated from the packaged tuned_svr_model.joblib artifact so the evaluation refers to the distributed estimator. The validation metrics are also calculated from that packaged estimator. Compare the recomputed best parameters and CV score with the notebook record."
+}

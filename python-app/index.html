@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#06111f">
+  <meta name="description" content="DiodeLab explores measured diode current-voltage characteristics, regression models, and silicon and silicon-carbide device measurements.">
+  <title>DiodeLab | Diode I–V Explorer</title>
+  <link rel="icon" type="image/png" href="diodelab_favicon.png">
+  <style>
+    :root{color-scheme:dark;--bg:#06111f;--panel:#0c1d32;--panel2:#102742;--line:#21486b;--cyan:#55d8f5;--blue:#168bd5;--text:#eff7ff;--muted:#a9bfd5}
+    *{box-sizing:border-box}
+    body{margin:0;background:radial-gradient(ellipse at 80% 0%,#0b2942 0,transparent 38%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6}
+    a{color:inherit;text-decoration:none}
+    .wrap{width:min(1100px,calc(100% - 40px));margin:auto}
+    header{display:flex;align-items:center;justify-content:space-between;padding:24px 0;border-bottom:1px solid rgba(100,170,220,.15)}
+    .brand{display:flex;align-items:center;gap:12px;font-size:1.25rem;font-weight:850;letter-spacing:-.04em}
+    .brand img{width:40px;height:40px;object-fit:contain}
+    .brand span span{color:var(--cyan)}
+    nav{display:flex;gap:20px;color:var(--muted);font-size:.92rem}
+    nav a:hover{color:var(--cyan)}
+    .hero{padding:82px 0 62px;max-width:850px}
+    .eyebrow{display:inline-flex;align-items:center;gap:9px;padding:6px 12px;border:1px solid #245a7c;border-radius:999px;background:rgba(15,68,100,.25);color:#81e5ff;font-size:.75rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+    h1{font-size:clamp(2.5rem,6vw,4.6rem);line-height:1.04;letter-spacing:-.06em;margin:24px 0 18px}
+    h1 em{font-style:normal;color:var(--cyan)}
+    .lead{max-width:720px;color:var(--muted);font-size:1.13rem}
+    .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:12px 19px;border-radius:12px;font-weight:750;border:1px solid var(--line);transition:.2s}
+    .btn.primary{background:linear-gradient(100deg,#087bd0,#05a7c9);border-color:transparent;color:white;box-shadow:0 10px 28px rgba(0,145,220,.2)}
+    .btn.secondary{background:rgba(13,34,57,.75);color:#d8ecff}
+    .btn:hover{transform:translateY(-2px);filter:brightness(1.12)}
+    .section{padding:24px 0 58px}
+    .kicker{color:var(--cyan);font-size:.74rem;font-weight:850;letter-spacing:.16em;text-transform:uppercase}
+    h2{font-size:1.8rem;letter-spacing:-.04em;margin:7px 0 8px}
+    .sub{color:var(--muted);margin:0 0 24px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .card{padding:23px;border:1px solid var(--line);border-radius:18px;background:linear-gradient(145deg,rgba(16,39,66,.94),rgba(8,24,42,.96));min-height:190px}
+    .num{display:grid;place-items:center;width:38px;height:38px;border:1px solid #287da4;border-radius:11px;color:var(--cyan);font-weight:850;font-size:.8rem;background:rgba(27,140,190,.12)}
+    .card h3{margin:16px 0 7px;font-size:1.13rem}
+    .card p{margin:0;color:var(--muted);font-size:.94rem}
+    .facts{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+    .fact{padding:18px;border:1px solid rgba(67,125,170,.35);border-radius:15px;background:rgba(9,28,48,.72)}
+    .fact strong{display:block;font-size:1.55rem;letter-spacing:-.04em}
+    .fact span{color:var(--muted);font-size:.84rem}
+    .note{border-left:3px solid var(--cyan);padding:14px 18px;background:rgba(10,42,65,.48);border-radius:0 12px 12px 0;color:var(--muted)}
+    .app-notice{padding:24px;border:1px solid #327da2;border-radius:18px;background:linear-gradient(145deg,rgba(12,48,72,.9),rgba(8,28,47,.96))}
+    .app-notice h2{margin-top:0}
+    .app-notice p{color:var(--muted)}
+    .app-notice .btn{margin-top:6px}
+    footer{border-top:1px solid rgba(100,170,220,.15);padding:24px 0 34px;color:var(--muted);font-size:.88rem}
+    footer a{color:#8de6ff}
+    @media(max-width:760px){nav{gap:12px;font-size:.82rem}.grid{grid-template-columns:1fr}.facts{grid-template-columns:1fr}.hero{padding:58px 0 42px}}
+    @media(max-width:440px){header{align-items:flex-start;gap:14px;flex-direction:column}.hero{padding-top:42px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="brand" href="./" aria-label="DiodeLab home">
+        <img src="diodelab_favicon.png" alt="">
+        <span>Diode<span>Lab</span></span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#overview">Overview</a>
+        <a href="#workspace">Workspace</a>
+        <a href="https://github.com/SainathGangasagare/DiodeLab">Source code</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="eyebrow">Semiconductor data · I–V analysis</div>
+        <h1>Explore diode behaviour.<br><em>Understand every curve.</em></h1>
+        <p class="lead">DiodeLab brings measured current–voltage characteristics, saved regression models, and device-level data exploration into one focused research workspace.</p>
+        <div class="actions">
+          <a class="btn primary" href="https://diodelab.streamlit.app/">Open interactive DiodeLab <span aria-hidden="true">↗</span></a>
+          <a class="btn secondary" href="https://github.com/SainathGangasagare/DiodeLab">View source repository <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="section" id="overview">
+        <div class="kicker">Project overview</div>
+        <h2>Measurements into insight</h2>
+        <p class="sub">A machine-learning and measurement exploration project with clearly separated datasets and device scopes.</p>
+        <div class="facts">
+          <div class="fact"><strong>170</strong><span>1N4004 measured voltage/current observations</span></div>
+          <div class="fact"><strong>720</strong><span>Classified silicon and SiC observations across 13 devices</span></div>
+          <div class="fact"><strong>77 K &amp; 293 K</strong><span>Recorded temperatures in the classified dataset</span></div>
+        </div>
+      </section>
+
+      <section class="section" id="workspace">
+        <div class="kicker">Explore DiodeLab</div>
+        <h2>One workspace, three ways to investigate</h2>
+        <p class="sub">Open the interactive application to explore the available analysis tools.</p>
+        <div class="grid">
+          <article class="card"><div class="num">01</div><h3>Predictor</h3><p>Explore current estimates from the saved models for supported devices and measured conditions.</p></article>
+          <article class="card"><div class="num">02</div><h3>Model comparison</h3><p>Review the recorded 1N4004 evaluation metrics and inspect available measured-versus-predicted curves.</p></article>
+          <article class="card"><div class="num">03</div><h3>Dataset explorer</h3><p>Browse the supplied measurement tables, inspect variables, and access the available datasets.</p></article>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="access-heading">
+        <div class="app-notice">
+          <div class="kicker">Important access information</div>
+          <h2 id="access-heading">The project website and interactive app are separate links</h2>
+          <p>This GitHub Pages website is the DiodeLab project information and submission page. The complete interactive application—including the diode I–V Predictor, model comparisons, dataset explorer, and interactive graphs—is hosted separately on Streamlit.</p>
+          <p><strong>To use and test the full working application, open the Streamlit link below.</strong></p>
+          <a class="btn primary" href="https://diodelab.streamlit.app/" target="_blank" rel="noopener noreferrer">Open the full interactive DiodeLab application <span aria-hidden="true">↗</span></a>
+          <p>The two websites belong to the same project, but the interactive tools run on Streamlit, not directly on this GitHub Pages page.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="note"><strong>Research note:</strong> model outputs are estimates within the scope of the available measurements and trained models. Only recorded temperatures are presented as measured conditions; predictions outside supported device, voltage, or temperature ranges are not validated.</div>
+      </section>
+    </main>
+
+    <footer>
+      <div>DiodeLab · Diode I–V Explorer</div>
+      <div> <a href="https://github.com/SainathGangasagare/DiodeLab">GitHub source repository</a> · <a href="https://diodelab.streamlit.app/">Interactive application</a></div>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,3 @@
+model,test_rows,MAE_A,RMSE_A,R2,notebook_MAE_A,absolute_difference_MAE_A,notebook_RMSE_A,absolute_difference_RMSE_A,notebook_R2,absolute_difference_R2,material,runtime_version,comparison_note
+Multi-temperature SVR,95,0.9746197682560498,2.2417426644443217,0.9955111994018702,0.97462,2.3174395025193917e-07,2.241743,3.355556783546376e-07,0.995511,1.994018701267919e-07,silicon,1.8.0,matches notebook to displayed precision
+Multi-temperature SVR,44,0.18748160345207285,0.25383944118211943,0.9986778860113318,0.187943,0.0004613965479271509,0.25197,0.0018694411821194024,0.998697,1.9113988668162385e-05,silicon carbide,1.8.0,differs from notebook output; rerun under pinned scikit-learn 1.6.1 before treating as exact

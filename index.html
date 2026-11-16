@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050b18">
+  <meta name="description" content="DiodeLab interactive I–V explorer with the original five-page Streamlit interface and seven saved diode regression models.">
+  <title>DiodeLab | Interactive I–V Explorer</title>
+  <link rel="icon" type="image/png" href="python-app/diodelab_favicon.png">
+  <link rel="stylesheet" href="assets/app.css">
+  <script defer src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <script defer src="assets/model-engine.js"></script>
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+  <main class="block-container">
+    <header class="top-nav">
+      <div class="brand-lockup">
+        <img src="python-app/diodelab_favicon.png" width="38" height="38" alt="DiodeLab icon">
+        <div class="brand-name"><span>Diode</span><span>Lab</span></div>
+      </div>
+      <nav aria-label="Main navigation" class="nav-buttons">
+        <button type="button" class="nav-button active" data-page="Home"><span class="material-symbol">home</span><span>Home</span></button>
+        <button type="button" class="nav-button" data-page="Project Guide"><span class="material-symbol">menu_book</span><span>Research</span></button>
+        <button type="button" class="nav-button" data-page="Predictor"><span class="material-symbol">query_stats</span><span>Predictor</span></button>
+        <button type="button" class="nav-button" data-page="Model Comparison"><span class="material-symbol">compare_arrows</span><span>Model lab</span></button>
+        <button type="button" class="nav-button" data-page="Dataset Explorer"><span class="material-symbol">database</span><span>Data</span></button>
+      </nav>
+    </header>
+
+    <div id="global-status" class="status-success">All saved models loaded successfully.</div>
+    <div id="global-error" class="alert alert-error" hidden></div>
+
+    <section id="page-home" class="page active" aria-label="Home">
+      <section class="hero">
+        <div class="hero-topline"><span class="eyebrow">SEMICONDUCTOR DATA · MACHINE LEARNING</span><span class="hero-status"><span class="status-dot"></span> Interactive research workspace</span></div>
+        <h1>Explore diode behaviour.<br><span class="gradient-text">Understand every curve.</span></h1>
+        <p>Explore 1N4004 regression experiments alongside measured current–voltage characteristics of silicon and silicon-carbide power devices, with saved models and device-level data exploration in one workspace.</p>
+        <div class="hero-actions"><span class="hero-chip">I–V analysis</span><span class="hero-chip">Model evaluation</span><span class="hero-chip">Silicon &amp; SiC data</span></div>
+      </section>
+
+      <div class="section-heading"><div><div class="section-kicker">Project at a glance</div><h2>Measurements into insight</h2><p class="small-muted">Separate views of the 1N4004 regression dataset and the classified silicon and SiC device measurements.</p></div></div>
+      <div class="metrics-grid four">
+        <div class="metric-card"><div class="metric-label">1N4004 I–V observations</div><div class="metric-value" id="home-observations">—</div><div class="metric-note">Measured voltage/current pairs</div></div>
+        <div class="metric-card"><div class="metric-label">Voltage span</div><div class="metric-value" id="home-voltage-min">—</div><div class="metric-note" id="home-voltage-span">in the 1N4004 data</div></div>
+        <div class="metric-card"><div class="metric-label">Saved estimators loaded</div><div class="metric-value" id="home-model-count">7</div><div class="metric-note">Available model files</div></div>
+        <div class="metric-card"><div class="metric-label">Silicon &amp; SiC observations</div><div class="metric-value" id="home-material-observations">—</div><div class="metric-note">Silicon and SiC device records</div></div>
+      </div>
+
+      <div class="section-heading spaced"><div><div class="section-kicker">Explore DiodeLab</div><h2>Choose where to begin</h2><p class="small-muted">Each workspace has a specific role in the analysis.</p></div></div>
+      <div class="feature-grid three">
+        <article><div class="feature-card"><div class="feature-icon">01</div><h3>Predictor</h3><p>Enter a voltage and explore current estimates from the available saved models.</p><div class="feature-tag">Interactive inference</div></div><button class="primary-button full" data-go="Predictor">Open predictor <span>→</span></button></article>
+        <article><div class="feature-card"><div class="feature-icon">02</div><h3>Model lab</h3><p>Inspect recorded evaluation results and compare measured and predicted curves.</p><div class="feature-tag">Evaluation &amp; comparison</div></div><button class="primary-button full" data-go="Model Comparison">Explore model comparison <span>→</span></button></article>
+        <article><div class="feature-card"><div class="feature-icon">03</div><h3>Data explorer</h3><p>Browse measurement tables, inspect variables, and download available datasets.</p><div class="feature-tag">Experimental evidence</div></div><button class="primary-button full" data-go="Dataset Explorer">Browse datasets <span>→</span></button></article>
+      </div>
+
+      <section class="workflow-panel">
+        <div class="section-kicker">How to use the workspace</div>
+        <h2>From measurement to interpretation</h2>
+        <div class="workflow-grid">
+          <div><span class="workflow-number">1</span><strong>Start with the data</strong><p>Review the measured voltage, current, device, and temperature information.</p></div>
+          <div><span class="workflow-number">2</span><strong>Explore a model</strong><p>Use the predictor with the saved estimators and supported input ranges.</p></div>
+          <div><span class="workflow-number">3</span><strong>Compare evidence</strong><p>Interpret the displayed curves and recorded evaluation results carefully.</p></div>
+        </div>
+      </section>
+      <p class="caption">Research note: model outputs are estimates within the scope of the available measurements and trained models. They should not be treated as component datasheet specifications or safety-critical design values.</p>
+    </section>
+
+    <section id="page-guide" class="page" aria-label="Project Guide">
+      <div class="section-kicker">Research question and evidence</div>
+      <h1 class="page-title">Project guide</h1>
+      <h3>Research question</h3>
+      <p>How well can regression models represent the measured current–voltage (I–V) relationship of a 1N4004 diode, and how do measured I–V curves for selected silicon and silicon-carbide power devices vary with voltage and temperature?</p>
+      <h3>What does one row represent?</h3>
+      <p>In the 1N4004 table, one row is one measured voltage/current pair from a diode sweep. In the classified device table, one row is one measured voltage/current point for a named device at a stated temperature. Rows are measurement points, not separate physical devices.</p>
+      <h3>Data sources and scale</h3>
+      <div class="metrics-grid three">
+        <div class="metric-card"><div class="metric-label">1N4004 observations</div><div class="metric-value" id="guide-1n-count">—</div></div>
+        <div class="metric-card"><div class="metric-label">Classified device observations</div><div class="metric-value" id="guide-classified-count">—</div></div>
+        <div class="metric-card"><div class="metric-label">Classified devices</div><div class="metric-value" id="guide-device-count">—</div></div>
+      </div>
+      <p>The 1N4004 measurements are distributed with the project in <code>diode_iv_data.csv</code>. The external measurement collection is attributed to the Diode I–V Measurements repository and is licensed CC BY 4.0. The classified silicon and silicon-carbide device measurements are attributed in the data documentation to the Cryogenic and Superconducting Power Electronics Database (DOI: 10.57745/2AHLA6).</p>
+      <p>Sources: <a href="https://github.com/blueberrye-io/diode-iv-measurements/" target="_blank" rel="noopener">Diode I–V Measurements</a> · <a href="https://doi.org/10.57745/2AHLA6" target="_blank" rel="noopener">Cryogenic and Superconducting Power Electronics Database</a></p>
+      <p class="caption" id="guide-data-caption">The classified file used by the app contains measured silicon and SiC rows.</p>
+      <h3>Variables and preprocessing</h3>
+      <p>The principal variables are measured voltage (V), measured current (A), device identifier, material, and temperature (K). The 1N4004 loader retains the voltage and current columns, removes rows with missing values, and sorts measurements by voltage. The classified-data loader checks for the required columns and removes rows missing device, voltage, current, or temperature. For material-model prediction, the application selects positive-current observations at the selected device and exact measured temperature.</p>
+      <p>The source documentation flags readings below approximately 50 nA for cautious interpretation. The external review table also preserves near-zero negative readings with review notes rather than silently changing them. The classified table has 26 non-positive current rows; the predictor excludes these when constructing its material-model prediction subset.</p>
+      <h3>Models and baseline</h3>
+      <p>The displayed 1N4004 comparison includes Random Forest and tuned SVR, with Linear Regression and a mean-prediction baseline as reference models. The application also loads device/material SVR estimators for silicon and silicon-carbide measurements. These saved estimators are used for interactive inference; this page does not claim that the multi-device estimators were retrained during an app session.</p>
+      <h3>Evaluation and recorded results</h3>
+      <p>The following metrics are stored in the application as previously recorded results for a random holdout from the 1N4004 measurement sweep. MAE and RMSE are in amperes; lower is better. R² closer to 1 indicates a closer fit on the reported test set.</p>
+      <div class="table-wrap"><table id="guide-metrics-table"><thead><tr><th>Model</th><th>MAE (A)</th><th>RMSE (A)</th><th>R²</th></tr></thead><tbody></tbody></table></div>
+      <p>On the reported metrics, tuned SVR has the lowest RMSE and highest R², while Random Forest has the lowest MAE. This means the ranking depends on the error measure: SVR has the smaller squared-error penalty overall, but Random Forest has the smaller average absolute error. Both reported machine-learning models outperform the displayed baselines on these stored values.</p>
+      <div class="alert alert-warning"><strong>Reproducibility gap:</strong> the submitted repository does not include the original training notebooks/scripts, exact random split indices, split sizes, or per-observation residuals for these metrics. The metrics are therefore reported as stored results, not independently recomputed here. The exact split configuration and detailed error analysis must be added from the original experiment records before claiming full reproduction.</div>
+      <h3>Interactive data exploration</h3>
+      <div class="control-grid two">
+        <label>Explore a measured device<select id="guide-device"></select></label>
+        <label>Measured temperature (K)<select id="guide-temperature"></select></label>
+      </div>
+      <p class="caption" id="guide-measured-caption"></p>
+      <div id="guide-chart" class="plotly-chart"></div>
+      <h3>Limitations</h3>
+      <ul>
+        <li>The reported 1N4004 scores come from a random holdout within one measured sweep; nearby points may be correlated.</li>
+        <li>The available classified silicon and silicon-carbide measurements cover 77 K and 293 K only. Predictions at unmeasured temperatures are not supported by the dataset interface.</li>
+        <li>Device-specific measurements are sparse compared with large-scale datasets, and device coverage is uneven.</li>
+        <li>Model performance outside the measured voltage, temperature, and device conditions is not established.</li>
+        <li>The repository currently lacks the exact training workflow and split artifacts needed to independently reproduce all reported scores.</li>
+      </ul>
+      <h3>Reproducibility and repository</h3>
+      <p>See the README and <code>docs/REPRODUCIBILITY.md</code> for setup, data provenance, the preprocessing summary, known gaps, and instructions for running the application and basic physics checks.</p>
+    </section>
+
+    <section id="page-predictor" class="page" aria-label="Predictor">
+      <div class="section-kicker">Interactive inference</div>
+      <h1 class="page-title">Diode current predictor</h1>
+      <p>Choose a trained model and enter a voltage. Predictions outside the measured voltage range may be unreliable.</p>
+      <div id="predictor-unavailable" class="alert alert-error" hidden>No saved models loaded. Confirm the model files are in the repository.</div>
+      <div id="predictor-controls" class="predictor-controls">
+        <div class="control-grid two">
+          <label>1. Choose device / material<select id="predict-device-type"><option>1N4004</option><option>Silicon</option><option>Silicon carbide (SiC)</option></select></label>
+          <label id="predict-device-wrap" hidden>2. Choose device<select id="predict-device"></select></label>
+          <label id="predict-model-wrap">2. Choose model<select id="predict-model"></select></label>
+          <label id="predict-temperature-wrap" hidden>4. Choose measured temperature (K)<select id="predict-temperature"></select></label>
+          <label>5. Enter voltage (V)<input id="predict-voltage" type="number" step="0.005" value="0.70"></label>
+        </div>
+        <div id="predictor-alerts" class="message-stack"></div>
+        <button id="predict-button" class="primary-button">Predict current</button>
+      </div>
+      <div id="prediction-result" hidden></div>
+      <h3>Interactive I–V graph</h3>
+      <p class="caption">Use the graph toolbar to zoom, pan, or reset. Hover over a curve to see the exact voltage and current. The gold star marks the latest successful prediction for the current inputs. Choose Forward or Reverse view to avoid the negative-voltage range compressing the positive-voltage region.</p>
+      <p class="caption">Select any available device or measured curve to compare. Devices from different materials can be compared together.</p>
+      <div id="curve-checkboxes" class="checkbox-grid"></div>
+      <label class="standalone-control">Voltage view<select id="iv-graph-view"><option>Full voltage range</option><option>Forward bias (0 V and above)</option><option>Reverse bias (below 0 V)</option><option>Zoom around selected voltage</option><option>Custom voltage range</option></select></label>
+      <div id="graph-view-controls"></div>
+      <div id="predictor-graph-note" class="alert alert-info" hidden>Select one or more datasets above to display curves. The prediction marker appears after a successful prediction.</div>
+      <div id="predictor-graph" class="plotly-chart tall"></div>
+    </section>
+
+    <section id="page-comparison" class="page" aria-label="Model Comparison">
+      <div class="section-kicker">Recorded metrics and measured curves</div>
+      <h1 class="page-title">Model comparison</h1>
+      <p>Explore the saved models by diode family. The 1N4004 section shows the previously recorded held-out metrics. Silicon and SiC sections show measured-versus-predicted I–V curves using the saved estimators; no evaluation scores are displayed for those families because a verified metrics file is not included in this repository.</p>
+      <label class="standalone-control">Choose diode family<select id="comparison-family"><option>1N4004</option><option>Silicon</option><option>Silicon carbide (SiC)</option></select></label>
+      <div id="comparison-1n">
+        <h3>1N4004 — recorded model evaluation</h3>
+        <div class="table-wrap"><table id="comparison-metrics-table"><thead><tr><th>Model</th><th>MAE (A)</th><th>RMSE (A)</th><th>R²</th></tr></thead><tbody></tbody></table></div>
+        <div class="metrics-grid two"><div><h4>Mean absolute error</h4><div id="mae-chart" class="plotly-chart short"></div></div><div><h4>Root mean squared error</h4><div id="rmse-chart" class="plotly-chart short"></div></div></div>
+        <div class="alert alert-info">These scores come from a random holdout within one measured 1N4004 voltage sweep. Nearby measurements may be correlated; the results do not establish generalization to other devices, temperatures, or measurement setups.</div>
+        <h4>1N4004 prediction curve</h4>
+        <label class="standalone-control">Choose a 1N4004 model<select id="comparison-1n-model"></select></label>
+        <div id="comparison-1n-plot" class="plotly-chart medium"></div>
+      </div>
+      <div id="comparison-material" hidden>
+        <h3 id="comparison-material-title">Silicon — measured and predicted I–V curve</h3>
+        <p class="caption">Select a device and one of the temperatures present in the classified measurements. The model receives device, voltage, and temperature as inputs.</p>
+        <div class="control-grid three">
+          <label>Measured device<select id="comparison-device"></select></label>
+          <label>Measured temperature (K)<select id="comparison-temperature"></select></label>
+          <label>Prediction model<select id="comparison-model"></select></label>
+        </div>
+        <div id="comparison-material-plot" class="plotly-chart medium"></div>
+        <p class="caption" id="comparison-material-caption"></p>
+        <div class="alert alert-info">No MAE, RMSE, or R² scores are shown here because the repository does not include a verified held-out evaluation table for these material models. The chart is a measured-versus-model prediction visualisation, not a new independent test-set evaluation.</div>
+      </div>
+    </section>
+
+    <section id="page-datasets" class="page" aria-label="Dataset Explorer">
+      <div class="section-kicker">Experimental measurements</div>
+      <h1 class="page-title">Dataset explorer</h1>
+      <label class="standalone-control">Choose a dataset<select id="dataset-select"></select></label>
+      <div id="dataset-content" hidden>
+        <p id="dataset-summary"></p>
+        <div class="table-wrap data-table-wrap"><table id="dataset-table"></table></div>
+        <a id="dataset-download" class="primary-button download-link" download>Download this dataset</a>
+        <div id="dataset-plot-title"></div>
+        <div id="dataset-plot" class="plotly-chart medium"></div>
+      </div>
+      <div id="dataset-error" class="alert alert-error" hidden></div>
+    </section>
+
+    <footer class="app-footer"><hr><p>DiodeLab · Educational ML demonstration · Predictions are estimates based on one measured 1N4004 voltage sweep.</p></footer>
+  </main>
+</body>
+</html>

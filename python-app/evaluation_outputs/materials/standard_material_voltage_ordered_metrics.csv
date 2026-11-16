@@ -1,0 +1,3 @@
+model,test_rows,MAE_A,RMSE_A,R2,material,C,epsilon,notebook_MAE_A,notebook_RMSE_A,absolute_difference_MAE_A,absolute_difference_RMSE_A,runtime_scikit_learn,notebook_comparison
+Standard SVR (voltage-ordered per-device test),98,4.432536867463645,7.032687335972975,0.7039513481843379,silicon,1,0.01,4.432537,7.032687,1.3253635522403329e-07,3.35972974774279e-07,1.8.0,matches displayed notebook values
+Standard SVR (voltage-ordered per-device test),45,1.3988815853379022,1.715665825936653,0.919542349044201,silicon carbide,100,0.01,1.389171,1.70809,0.009710585337902256,0.007575825936652958,1.8.0,differs; inspect environment and rerun with pinned 1.6.1

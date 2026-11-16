@@ -1,0 +1,31 @@
+{
+  "python_version": "3.13.5",
+  "scikit_learn_version": "1.8.0",
+  "project_pinned_scikit_learn_version": "1.6.1",
+  "version_matches_project_pin": false,
+  "diagnostic_mismatch_override_used": true,
+  "notes": [
+    "1N4004 random test predictions use the packaged RF and tuned-SVR estimators and the notebook's 102/34/34 random split.",
+    "1N4004 voltage-ordered metrics are validation results from the notebook's first-60%-train / next-20%-validation design; the final 20% was not used in that comparison.",
+    "Reverse-bias predictions use the packaged original, untuned SVR artifact and the notebook's eight selected test rows.",
+    "Material multi-temperature models are refitted using the final notebook cell 348 recipe, on positive-current Si/SiC observations only.",
+    "The material mean baseline is an additional assessment comparison and was not part of the original notebook's saved model report.",
+    "Standard Si/SiC SVR uses per-device voltage-ordered outer test splits and nested per-device tuning validation as documented in FINAL_BOSS_ML.ipynb cells 94 and 98-103.",
+    "When the runtime version differs from 1.6.1, all output metadata and comparison files must be read as a diagnostic run, not exact pinned-environment reproduction."
+  ],
+  "joblib_load_warning_count": 208,
+  "joblib_load_warning_summary": "Warnings are expected in this diagnostic run because serialized estimators created with scikit-learn 1.6.1 were loaded with 1.8.0. This is not the project's pinned environment; rerun with 1.6.1 for strict compatibility verification.",
+  "joblib_load_warning_examples": [
+    "1n4004_reverse_svr_model.joblib: Trying to unpickle estimator Pipeline from version 1.6.1 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations",
+    "1n4004_reverse_svr_model.joblib: Trying to unpickle estimator SVR from version 1.6.1 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations",
+    "1n4004_reverse_svr_model.joblib: Trying to unpickle estimator StandardScaler from version 1.6.1 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations",
+    "random_forest_model.joblib: Trying to unpickle estimator DecisionTreeRegressor from version 1.6.1 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations",
+    "random_forest_model.joblib: Trying to unpickle estimator RandomForestRegressor from version 1.6.1 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations",
+    "tuned_svr_model.joblib: Trying to unpickle estimator Pipeline from version 1.6.1 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations"
+  ],
+  "output_folders": [
+    "1n4004",
+    "1n4004_reverse_bias",
+    "materials"
+  ]
+}

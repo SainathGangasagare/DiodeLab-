@@ -1,0 +1,721 @@
+device,temperature_K,voltage_V,current_A,source_id,evidence_type,material
+1N1190,293,0.0,0.0,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,293,0.0515,0.001,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,293,0.696,0.239,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,293,0.7512,0.906,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,293,0.7949,2.264,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,293,0.8239,4.063,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,293,0.8451,5.996,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,293,0.862,7.983,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,293,0.8763,9.996,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,293,0.8883,12.027,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,293,0.8996,14.065,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,293,0.9096,16.111,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,293,0.9191,18.159,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,293,0.9281,20.209,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,293,0.9366,22.263,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,293,0.944,24.322,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,293,0.9516,26.376,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,293,0.9588,28.431,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,293,0.966,30.486,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,293,0.9726,32.528,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,293,0.9783,34.526,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,0.0,0.0,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,0.0519,0.001,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,1.049,0.255,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,1.0842,1.269,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,1.1068,2.644,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,1.1221,4.139,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,1.1348,5.661,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,1.1469,7.188,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,1.1583,8.72,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,1.1686,10.262,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,1.1789,11.802,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,1.1885,13.349,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,1.1971,14.902,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,1.2052,16.458,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,1.2133,18.014,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,1.2219,19.566,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,1.2288,21.13,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,1.2358,22.693,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,1.2422,24.258,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,1.2484,25.823,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,1.2545,27.389,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,1.2601,28.957,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,1.2656,30.523,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,1.2706,32.093,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,1.2753,33.659,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,1.2797,35.217,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,1.2833,36.777,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,1.2867,38.323,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,1.2895,39.868,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,1.2916,41.408,cryogenic_power_electronics_database,direct_measurement,silicon
+1N1190,77,1.2927,42.923,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,293,0.0,0.0,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,293,0.0504,0.001,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,293,0.6418,0.204,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,293,0.7396,0.81,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,293,0.8306,2.629,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,293,0.9054,5.79,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,293,0.9623,9.793,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,293,1.0087,14.124,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,293,1.0478,18.631,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,293,1.0826,23.227,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,293,1.1143,27.876,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,293,1.1435,32.564,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,293,1.1709,37.28,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,293,1.1967,42.013,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,293,1.2209,46.761,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,293,1.2444,51.492,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,293,1.2655,56.136,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,293,1.2842,60.569,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,293,1.2984,64.457,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,0.0,0.0,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,0.0462,0.001,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.0589,0.236,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.1149,0.479,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.1642,0.824,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.2106,1.203,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.2567,1.588,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.3015,1.991,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.3417,2.426,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.3828,2.866,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.4226,3.317,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.4611,3.774,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.5003,4.227,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.5367,4.683,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.5674,5.174,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.6019,5.652,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.6352,6.126,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.6651,6.624,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.6946,7.118,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.7238,7.621,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.7507,8.133,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.7777,8.646,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.8023,9.166,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.8271,9.686,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.8503,10.21,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.8722,10.738,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.8934,11.269,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.9131,11.804,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.9317,12.342,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.95,12.881,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.9678,13.421,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.9839,13.965,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,1.9996,14.509,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,2.0145,15.056,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,2.0296,15.602,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,2.0428,16.152,cryogenic_power_electronics_database,direct_measurement,silicon
+1N3913,77,2.0558,16.702,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,293,0.0,0.0,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,293,0.0558,0.001,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,293,0.6023,0.445,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,293,0.6628,1.401,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,293,0.7208,4.127,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,293,0.771,9.269,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,293,0.8091,16.42,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,293,0.8395,24.399,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,293,0.8661,32.68,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,293,0.8879,41.288,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,293,0.9068,50.045,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,293,0.9259,58.798,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,293,0.9428,67.649,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,293,0.9591,76.529,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,293,0.9747,85.439,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,293,0.9892,94.389,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,293,1.0037,103.34,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,293,1.0173,112.32,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,293,1.0313,121.28,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,293,1.0451,130.24,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,293,1.0574,139.23,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,293,1.0698,148.12,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,293,1.0808,157.03,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,293,1.0907,165.28,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,0.0,0.0,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,0.0593,0.001,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,1.0121,0.321,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,1.0589,2.257,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,1.0889,6.904,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,1.1083,12.34,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,1.1255,17.875,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,1.1414,23.467,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,1.1563,29.095,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,1.1703,34.757,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,1.1834,40.445,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,1.1965,46.135,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,1.2093,51.834,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,1.2224,57.524,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,1.2357,63.209,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,1.2477,68.929,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,1.2584,74.689,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,1.2711,80.388,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,1.2849,86.058,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,1.2954,91.819,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,1.3065,97.562,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,1.3198,103.25,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,1.3291,109.03,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,1.3421,114.72,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,1.3529,120.48,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,1.3632,126.24,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,1.3742,131.98,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,1.3846,137.74,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,1.3928,143.54,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,1.4009,149.35,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,1.4073,155.17,cryogenic_power_electronics_database,direct_measurement,silicon
+45L120,77,1.4102,165.8,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,293,0.0,0.0,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,293,0.048,0.001,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,293,0.6782,0.052,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,293,0.734,0.263,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,293,0.7807,0.933,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,293,0.8107,1.96,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,293,0.8309,3.093,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,293,0.8458,4.263,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,293,0.8581,5.447,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,293,0.8675,6.643,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,293,0.8771,7.838,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,293,0.8858,9.037,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,293,0.8935,10.238,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,293,0.9004,11.442,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,293,0.9072,12.646,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,293,0.9132,13.852,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,293,0.9193,15.057,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,293,0.9252,16.263,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,293,0.931,17.469,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,293,0.9367,18.676,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,293,0.9421,19.883,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,0.0,0.0,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,0.0485,0.001,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,1.0706,0.213,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,1.1035,0.736,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,1.1267,1.371,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,1.1462,2.033,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,1.1627,2.713,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,1.1773,3.403,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,1.1905,4.099,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,1.2027,4.799,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,1.2139,5.502,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,1.2243,6.208,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,1.2343,6.915,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,1.2434,7.625,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,1.2523,8.336,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,1.2606,9.048,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,1.2686,9.761,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,1.2761,10.475,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,1.2833,11.19,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,1.2906,11.905,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,1.2971,12.621,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,1.3031,13.338,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,1.3088,14.056,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,1.3142,14.774,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,1.3194,15.493,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,1.3241,16.213,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,1.3283,16.933,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,1.3323,17.653,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,1.3358,18.374,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,1.3389,19.095,cryogenic_power_electronics_database,direct_measurement,silicon
+1N11877R,77,1.3415,19.817,cryogenic_power_electronics_database,direct_measurement,silicon
+STPSC12065DY,293,0.0,0.0,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,293,0.0508,0.001,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,293,0.8168,0.0011,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,293,0.8756,0.196,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,293,0.9291,0.752,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,293,0.9703,1.473,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,293,1.0046,2.255,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,293,1.0343,3.072,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,293,1.0629,3.883,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,293,1.0903,4.695,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,293,1.1172,5.498,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,293,1.1431,6.3,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,293,1.1683,7.1,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,293,1.1938,7.884,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,293,1.218,8.674,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,293,1.2424,9.449,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,293,1.2671,10.209,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,293,1.2908,10.967,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,293,1.314,11.718,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,293,1.3376,12.456,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,293,1.3616,13.181,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,293,1.3857,13.895,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,293,1.41,14.596,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,293,1.4339,15.292,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,293,1.4586,15.968,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,0.0,0.0,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,0.0508,0.001,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.1427,0.0407,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.1819,0.321,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.2197,0.751,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.2528,1.218,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.2832,1.702,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.3115,2.196,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.3381,2.701,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.3624,3.214,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.3867,3.728,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.4103,4.245,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.433,4.766,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.4538,5.292,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.4735,5.823,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.4926,6.356,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.5114,6.889,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.5294,7.425,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.5469,7.962,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.5631,8.503,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.5787,9.045,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.5937,9.588,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.6086,10.132,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.6227,10.678,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.6361,11.225,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.6491,11.773,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.6617,12.321,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.6736,12.871,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.6848,13.42,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.6949,13.969,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.705,14.507,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.7137,15.048,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.7218,15.584,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+STPSC12065DY,77,1.728,16.122,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+MBR4035,293,0.0,0.0,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,293,0.0457,0.001,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,293,0.185,0.115,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,293,0.2128,0.344,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,293,0.24,0.889,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,293,0.2653,1.932,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,293,0.2872,3.441,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,293,0.3054,5.297,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,293,0.3213,7.318,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,293,0.3358,9.411,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,293,0.3493,11.558,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,293,0.3622,13.733,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,293,0.3745,15.933,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,293,0.3866,18.143,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,293,0.3984,20.366,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,293,0.4094,22.621,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,293,0.4206,24.867,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,293,0.4322,27.088,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,293,0.443,29.334,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,293,0.4536,31.59,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,293,0.465,33.82,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,293,0.4759,36.065,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,293,0.4866,38.26,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,293,0.4971,40.36,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,293,0.5069,42.386,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,293,0.5168,44.322,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,293,0.5265,46.156,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.0,0.0,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.0496,0.001,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.5192,0.088,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.5375,0.583,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.5478,1.461,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.553,2.44,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.556,3.439,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.5585,4.441,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.5609,5.443,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.5631,6.446,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.565,7.451,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.5669,8.455,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.5686,9.46,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.57,10.467,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.5715,11.473,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.573,12.478,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.5741,13.484,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.5755,14.489,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.5771,15.486,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.5784,16.487,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.5793,17.488,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.5803,18.485,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.5811,19.482,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.5821,20.469,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.583,21.44,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.5838,22.38,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.5847,23.315,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.5852,24.197,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.5857,25.09,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.586,25.803,cryogenic_power_electronics_database,direct_measurement,silicon
+MBR4035,77,0.5866,26.363,cryogenic_power_electronics_database,direct_measurement,silicon
+FFSH3065B,293,0.0,0.0,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,293,0.0473,0.001,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,293,0.8559,0.056,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,293,0.9232,0.518,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,293,0.9687,1.569,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,293,1.0003,2.792,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,293,1.0262,4.062,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,293,1.0496,5.35,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,293,1.0715,6.646,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,293,1.0925,7.948,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,293,1.1129,9.254,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,293,1.1335,10.557,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,293,1.1535,11.865,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,293,1.1729,13.176,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,293,1.1919,14.489,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,293,1.2118,15.797,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,293,1.2311,17.109,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,293,1.2511,18.415,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,293,1.2704,19.724,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,293,1.2901,21.03,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,293,1.31,22.333,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,293,1.3305,23.634,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,293,1.3516,24.931,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,0.0,0.0,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,0.0526,0.001,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.1607,0.0011,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.2066,0.476,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.2462,1.095,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.2807,1.773,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.3121,2.477,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.3416,3.199,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.3707,3.924,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.3992,4.652,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.4255,5.397,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.4508,6.146,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.475,6.904,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.4995,7.658,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.5225,8.422,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.5421,9.205,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.5624,9.985,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.5825,10.765,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.6004,11.555,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.6177,12.348,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.6334,13.147,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.6481,13.95,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.6619,14.755,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.6748,15.564,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.6869,16.375,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.6984,17.188,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.709,18.003,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.7191,18.82,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.7282,19.639,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.7364,20.459,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.7441,21.281,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.7511,22.104,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.7573,22.928,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B,77,1.7627,23.754,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,293,0.0,0.0,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,293,0.0503,0.001,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,293,0.8355,0.0011,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,293,0.9188,0.456,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,293,0.9665,1.478,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,293,0.9984,2.705,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,293,1.0231,3.993,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,293,1.046,5.293,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,293,1.0671,6.605,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,293,1.0876,7.919,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,293,1.1075,9.237,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,293,1.127,10.556,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,293,1.1457,11.88,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,293,1.1646,13.203,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,293,1.1833,14.528,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,293,1.203,15.847,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,293,1.221,17.174,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,293,1.2404,18.495,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,293,1.259,19.817,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,293,1.2778,21.138,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,293,1.2972,22.454,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,293,1.3168,23.77,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,293,1.3358,25.089,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,0.0,0.0,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,0.0503,0.001,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.1663,0.116,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.2105,0.651,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.2457,1.314,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.2743,2.044,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.3003,2.795,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.3263,3.545,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.3511,4.304,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.3749,5.07,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.3971,5.846,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.4181,6.628,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.439,7.412,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.4571,8.211,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.475,9.011,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.4925,9.813,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.5091,10.62,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.5243,11.432,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.5389,12.247,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.5528,13.065,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.5658,13.886,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.5782,14.709,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.5898,15.535,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.6005,16.364,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.6106,17.194,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.6201,18.026,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.6291,18.859,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.6374,19.694,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.6451,20.529,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.6521,21.367,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.6585,22.205,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.6641,23.045,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+FFSH3065B-F085,77,1.6688,23.887,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+BZW1336,293,0.0,0.0,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,293,0.0511,0.001,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,293,0.7152,0.106,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,293,0.7675,0.457,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,293,0.8081,1.376,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,293,0.835,2.586,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,293,0.8544,3.89,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,293,0.8692,5.234,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,293,0.8814,6.594,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,293,0.892,7.963,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,293,0.9015,9.337,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,293,0.9103,10.715,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,293,0.9185,12.095,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,293,0.9262,13.476,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,293,0.9335,14.86,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,293,0.9404,16.244,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,293,0.9473,17.628,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,293,0.9538,19.013,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,293,0.9601,20.399,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,293,0.9661,21.786,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,293,0.9719,23.173,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,293,0.9772,24.562,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,0.0,0.0,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,0.0501,0.001,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.0476,0.078,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.0791,0.344,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.1033,0.645,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.1251,0.954,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.1451,1.27,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.1655,1.583,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.1847,1.901,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.2028,2.222,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.2203,2.545,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.2376,2.867,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.2549,3.19,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.2714,3.515,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.2875,3.841,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.3033,4.168,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.3191,4.494,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.3341,4.822,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.349,5.151,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.3629,5.481,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.377,5.81,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.3906,6.141,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.4037,6.472,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.4162,6.805,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.4289,7.137,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.4407,7.47,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.4524,7.804,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.4639,8.138,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.4753,8.472,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.4857,8.807,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.496,9.143,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.5059,9.479,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1336,77,1.5159,9.815,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,293,0.0,0.0,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,293,0.0541,0.001,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,293,0.7234,0.187,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,293,0.7815,0.934,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,293,0.8271,2.723,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,293,0.8572,5.133,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,293,0.8802,7.711,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,293,0.8994,10.352,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,293,0.9162,13.029,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,293,0.9309,15.734,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,293,0.9447,18.447,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,293,0.958,21.166,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,293,0.9704,23.895,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,293,0.9817,26.633,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,293,0.9932,29.371,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,293,1.0043,32.111,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,293,1.0152,34.851,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,293,1.0252,37.6,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,293,1.0348,40.35,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,293,1.0451,43.094,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,293,1.0549,45.842,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,293,1.0636,48.584,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,0.0,0.0,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,0.0523,0.001,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.04,0.0011,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.0855,0.736,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.1241,1.947,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.1563,3.384,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.1828,4.962,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.206,6.607,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.2266,8.294,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.246,10.0,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.2638,11.727,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.2807,13.465,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.296,15.223,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.311,16.984,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.3243,18.761,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.3372,20.543,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.3492,22.333,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.3607,24.127,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.3715,25.927,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.3815,27.731,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.3909,29.54,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.3994,31.355,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.4073,33.173,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.4147,34.994,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.4218,36.816,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.428,38.643,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.4336,40.472,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.4388,42.303,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.4433,44.136,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.4477,45.969,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.4507,47.805,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.4533,49.643,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW1347,77,1.4553,51.481,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,293,0.0,0.0,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,293,0.0517,0.001,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,293,0.7394,0.213,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,293,0.8135,0.727,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,293,0.8802,1.773,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,293,0.9345,3.305,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,293,0.977,5.128,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,293,1.0135,7.057,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,293,1.0445,9.064,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,293,1.072,11.113,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,293,1.0975,13.181,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,293,1.1213,15.264,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,293,1.1438,17.359,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,293,1.1648,19.469,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,293,1.185,21.585,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,293,1.2041,23.705,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,293,1.2251,25.808,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,293,1.2431,27.935,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,293,1.2614,30.063,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,293,1.2795,32.172,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,293,1.2969,34.211,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,293,1.3141,36.164,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,293,1.3302,38.053,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,0.0,0.0,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,0.0505,0.001,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,1.0408,0.009,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,1.0824,0.297,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,1.1137,0.787,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,1.1368,1.35,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,1.1573,1.93,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,1.1749,2.528,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,1.1906,3.134,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,1.2046,3.746,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,1.2177,4.363,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,1.23,4.982,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,1.2421,5.601,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,1.2536,6.223,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,1.2641,6.847,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,1.2734,7.475,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,1.2831,8.101,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,1.2924,8.729,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,1.3011,9.357,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,1.3091,9.988,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,1.3164,10.62,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,1.3234,11.253,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,1.33,11.886,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,1.3362,12.519,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,1.3418,13.154,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,1.3469,13.79,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,1.3515,14.425,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,1.3554,15.061,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,1.3587,15.695,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,1.3613,16.325,cryogenic_power_electronics_database,direct_measurement,silicon
+BYX661000,77,1.3626,17.588,cryogenic_power_electronics_database,direct_measurement,silicon
+C6D20065A,293,0.0,0.0,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,293,0.0497,0.001,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,293,0.8705,0.157,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,293,0.9113,0.535,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,293,0.9382,1.014,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,293,0.9596,1.515,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,293,0.9788,2.023,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,293,0.9954,2.538,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,293,1.0112,3.056,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,293,1.0258,3.576,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,293,1.0394,4.097,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,293,1.0533,4.618,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,293,1.0672,5.14,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,293,1.0803,5.662,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,293,1.0915,6.188,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,293,1.1043,6.711,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,293,1.1169,7.235,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,293,1.1298,7.758,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,293,1.1421,8.282,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,293,1.1542,8.806,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,293,1.1663,9.33,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,293,1.1785,9.853,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,0.0,0.0,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,0.0475,0.001,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.1338,0.015,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.1683,0.134,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.193,0.295,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.2155,0.466,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.2373,0.638,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.2593,0.809,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.2798,0.986,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.3004,1.161,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.3203,1.338,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.3404,1.514,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.3602,1.691,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.3786,1.872,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.3978,2.05,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.4165,2.23,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.4347,2.411,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.4531,2.592,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.4718,2.77,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.4894,2.953,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.5067,3.136,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.5237,3.32,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.5405,3.504,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.5578,3.686,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.5739,3.872,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.5904,4.056,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.606,4.243,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.6219,4.428,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.6374,4.615,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.6521,4.804,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.667,4.992,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.682,5.178,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.6962,5.368,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+C6D20065A,77,1.7106,5.556,cryogenic_power_electronics_database,direct_measurement,silicon carbide
+BZW12360,293,0.0,0.0,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,293,0.0496,0.001,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,293,0.6612,0.036,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,293,0.7208,0.109,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,293,0.7762,0.353,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,293,0.8195,0.822,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,293,0.8504,1.41,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,293,0.8741,2.04,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,293,0.8926,2.692,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,293,0.9089,3.352,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,293,0.9228,4.019,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,293,0.9354,4.689,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,293,0.9473,5.361,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,293,0.9579,6.035,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,293,0.9682,6.71,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,293,0.9777,7.386,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,293,0.9869,8.063,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,293,0.9956,8.741,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,293,1.004,9.42,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,293,1.0123,10.098,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,293,1.0201,10.777,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,293,1.0269,11.457,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,0.0,0.0,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,0.0492,0.001,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,1.0475,0.0365,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,1.0634,0.126,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,1.0911,0.48,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,1.111,0.879,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,1.1276,1.291,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,1.1426,1.708,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,1.1558,2.13,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,1.1674,2.556,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,1.179,2.982,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,1.1897,3.41,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,1.1996,3.839,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,1.2091,4.269,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,1.2182,4.7,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,1.2268,5.132,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,1.2354,5.564,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,1.2436,5.996,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,1.2519,6.428,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,1.2601,6.86,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,1.2681,7.293,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,1.276,7.726,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,1.2835,8.159,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,1.2901,8.594,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,1.2971,9.028,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,1.3042,9.462,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,1.3109,9.897,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,1.3171,10.332,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,1.3228,10.767,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,1.3284,11.203,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,1.3334,11.639,cryogenic_power_electronics_database,direct_measurement,silicon
+BZW12360,77,1.3377,12.076,cryogenic_power_electronics_database,direct_measurement,silicon

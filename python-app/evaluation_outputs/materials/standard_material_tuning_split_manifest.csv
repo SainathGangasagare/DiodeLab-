@@ -1,0 +1,552 @@
+source_row_id,material,device,voltage_V,temperature_K,tuning_split
+165,silicon,1N11877R,0.048,293,fit
+186,silicon,1N11877R,0.0485,77,fit
+166,silicon,1N11877R,0.6782,293,fit
+167,silicon,1N11877R,0.734,293,fit
+168,silicon,1N11877R,0.7807,293,fit
+169,silicon,1N11877R,0.8107,293,fit
+170,silicon,1N11877R,0.8309,293,fit
+171,silicon,1N11877R,0.8458,293,fit
+172,silicon,1N11877R,0.8581,293,fit
+173,silicon,1N11877R,0.8675,293,fit
+174,silicon,1N11877R,0.8771,293,fit
+175,silicon,1N11877R,0.8858,293,fit
+176,silicon,1N11877R,0.8935,293,fit
+177,silicon,1N11877R,0.9004,293,fit
+178,silicon,1N11877R,0.9072,293,fit
+179,silicon,1N11877R,0.9132,293,fit
+180,silicon,1N11877R,0.9193,293,fit
+181,silicon,1N11877R,0.9252,293,fit
+182,silicon,1N11877R,0.931,293,fit
+183,silicon,1N11877R,0.9367,293,fit
+184,silicon,1N11877R,0.9421,293,fit
+187,silicon,1N11877R,1.0706,77,fit
+188,silicon,1N11877R,1.1035,77,fit
+189,silicon,1N11877R,1.1267,77,fit
+190,silicon,1N11877R,1.1462,77,fit
+191,silicon,1N11877R,1.1627,77,fit
+192,silicon,1N11877R,1.1773,77,fit
+193,silicon,1N11877R,1.1905,77,fit
+194,silicon,1N11877R,1.2027,77,fit
+195,silicon,1N11877R,1.2139,77,fit
+196,silicon,1N11877R,1.2243,77,fit
+197,silicon,1N11877R,1.2343,77,fit
+1,silicon,1N1190,0.0515,293,fit
+22,silicon,1N1190,0.0519,77,fit
+2,silicon,1N1190,0.696,293,fit
+3,silicon,1N1190,0.7512,293,fit
+4,silicon,1N1190,0.7949,293,fit
+5,silicon,1N1190,0.8239,293,fit
+6,silicon,1N1190,0.8451,293,fit
+7,silicon,1N1190,0.862,293,fit
+8,silicon,1N1190,0.8763,293,fit
+9,silicon,1N1190,0.8883,293,fit
+10,silicon,1N1190,0.8996,293,fit
+11,silicon,1N1190,0.9096,293,fit
+12,silicon,1N1190,0.9191,293,fit
+13,silicon,1N1190,0.9281,293,fit
+14,silicon,1N1190,0.9366,293,fit
+15,silicon,1N1190,0.944,293,fit
+16,silicon,1N1190,0.9516,293,fit
+17,silicon,1N1190,0.9588,293,fit
+18,silicon,1N1190,0.966,293,fit
+19,silicon,1N1190,0.9726,293,fit
+20,silicon,1N1190,0.9783,293,fit
+23,silicon,1N1190,1.049,77,fit
+24,silicon,1N1190,1.0842,77,fit
+25,silicon,1N1190,1.1068,77,fit
+26,silicon,1N1190,1.1221,77,fit
+27,silicon,1N1190,1.1348,77,fit
+28,silicon,1N1190,1.1469,77,fit
+29,silicon,1N1190,1.1583,77,fit
+30,silicon,1N1190,1.1686,77,fit
+31,silicon,1N1190,1.1789,77,fit
+32,silicon,1N1190,1.1885,77,fit
+33,silicon,1N1190,1.1971,77,fit
+72,silicon,1N3913,0.0462,77,fit
+53,silicon,1N3913,0.0504,293,fit
+54,silicon,1N3913,0.6418,293,fit
+55,silicon,1N3913,0.7396,293,fit
+56,silicon,1N3913,0.8306,293,fit
+57,silicon,1N3913,0.9054,293,fit
+58,silicon,1N3913,0.9623,293,fit
+59,silicon,1N3913,1.0087,293,fit
+60,silicon,1N3913,1.0478,293,fit
+73,silicon,1N3913,1.0589,77,fit
+61,silicon,1N3913,1.0826,293,fit
+62,silicon,1N3913,1.1143,293,fit
+74,silicon,1N3913,1.1149,77,fit
+63,silicon,1N3913,1.1435,293,fit
+75,silicon,1N3913,1.1642,77,fit
+64,silicon,1N3913,1.1709,293,fit
+65,silicon,1N3913,1.1967,293,fit
+76,silicon,1N3913,1.2106,77,fit
+66,silicon,1N3913,1.2209,293,fit
+67,silicon,1N3913,1.2444,293,fit
+77,silicon,1N3913,1.2567,77,fit
+68,silicon,1N3913,1.2655,293,fit
+69,silicon,1N3913,1.2842,293,fit
+70,silicon,1N3913,1.2984,293,fit
+78,silicon,1N3913,1.3015,77,fit
+79,silicon,1N3913,1.3417,77,fit
+80,silicon,1N3913,1.3828,77,fit
+81,silicon,1N3913,1.4226,77,fit
+82,silicon,1N3913,1.4611,77,fit
+83,silicon,1N3913,1.5003,77,fit
+84,silicon,1N3913,1.5367,77,fit
+85,silicon,1N3913,1.5674,77,fit
+86,silicon,1N3913,1.6019,77,fit
+87,silicon,1N3913,1.6352,77,fit
+109,silicon,45L120,0.0558,293,fit
+133,silicon,45L120,0.0593,77,fit
+110,silicon,45L120,0.6023,293,fit
+111,silicon,45L120,0.6628,293,fit
+112,silicon,45L120,0.7208,293,fit
+113,silicon,45L120,0.771,293,fit
+114,silicon,45L120,0.8091,293,fit
+115,silicon,45L120,0.8395,293,fit
+116,silicon,45L120,0.8661,293,fit
+117,silicon,45L120,0.8879,293,fit
+118,silicon,45L120,0.9068,293,fit
+119,silicon,45L120,0.9259,293,fit
+120,silicon,45L120,0.9428,293,fit
+121,silicon,45L120,0.9591,293,fit
+122,silicon,45L120,0.9747,293,fit
+123,silicon,45L120,0.9892,293,fit
+124,silicon,45L120,1.0037,293,fit
+134,silicon,45L120,1.0121,77,fit
+125,silicon,45L120,1.0173,293,fit
+126,silicon,45L120,1.0313,293,fit
+127,silicon,45L120,1.0451,293,fit
+128,silicon,45L120,1.0574,293,fit
+135,silicon,45L120,1.0589,77,fit
+129,silicon,45L120,1.0698,293,fit
+130,silicon,45L120,1.0808,293,fit
+136,silicon,45L120,1.0889,77,fit
+131,silicon,45L120,1.0907,293,fit
+137,silicon,45L120,1.1083,77,fit
+138,silicon,45L120,1.1255,77,fit
+139,silicon,45L120,1.1414,77,fit
+140,silicon,45L120,1.1563,77,fit
+141,silicon,45L120,1.1703,77,fit
+142,silicon,45L120,1.1834,77,fit
+143,silicon,45L120,1.1965,77,fit
+580,silicon,BYX661000,0.0505,77,fit
+557,silicon,BYX661000,0.0517,293,fit
+558,silicon,BYX661000,0.7394,293,fit
+559,silicon,BYX661000,0.8135,293,fit
+560,silicon,BYX661000,0.8802,293,fit
+561,silicon,BYX661000,0.9345,293,fit
+562,silicon,BYX661000,0.977,293,fit
+563,silicon,BYX661000,1.0135,293,fit
+581,silicon,BYX661000,1.0408,77,fit
+564,silicon,BYX661000,1.0445,293,fit
+565,silicon,BYX661000,1.072,293,fit
+582,silicon,BYX661000,1.0824,77,fit
+566,silicon,BYX661000,1.0975,293,fit
+583,silicon,BYX661000,1.1137,77,fit
+567,silicon,BYX661000,1.1213,293,fit
+584,silicon,BYX661000,1.1368,77,fit
+568,silicon,BYX661000,1.1438,293,fit
+585,silicon,BYX661000,1.1573,77,fit
+569,silicon,BYX661000,1.1648,293,fit
+586,silicon,BYX661000,1.1749,77,fit
+570,silicon,BYX661000,1.185,293,fit
+587,silicon,BYX661000,1.1906,77,fit
+571,silicon,BYX661000,1.2041,293,fit
+588,silicon,BYX661000,1.2046,77,fit
+589,silicon,BYX661000,1.2177,77,fit
+572,silicon,BYX661000,1.2251,293,fit
+590,silicon,BYX661000,1.23,77,fit
+591,silicon,BYX661000,1.2421,77,fit
+573,silicon,BYX661000,1.2431,293,fit
+592,silicon,BYX661000,1.2536,77,fit
+574,silicon,BYX661000,1.2614,293,fit
+593,silicon,BYX661000,1.2641,77,fit
+689,silicon,BZW12360,0.0492,77,fit
+667,silicon,BZW12360,0.0496,293,fit
+668,silicon,BZW12360,0.6612,293,fit
+669,silicon,BZW12360,0.7208,293,fit
+670,silicon,BZW12360,0.7762,293,fit
+671,silicon,BZW12360,0.8195,293,fit
+672,silicon,BZW12360,0.8504,293,fit
+673,silicon,BZW12360,0.8741,293,fit
+674,silicon,BZW12360,0.8926,293,fit
+675,silicon,BZW12360,0.9089,293,fit
+676,silicon,BZW12360,0.9228,293,fit
+677,silicon,BZW12360,0.9354,293,fit
+678,silicon,BZW12360,0.9473,293,fit
+679,silicon,BZW12360,0.9579,293,fit
+680,silicon,BZW12360,0.9682,293,fit
+681,silicon,BZW12360,0.9777,293,fit
+682,silicon,BZW12360,0.9869,293,fit
+683,silicon,BZW12360,0.9956,293,fit
+684,silicon,BZW12360,1.004,293,fit
+685,silicon,BZW12360,1.0123,293,fit
+686,silicon,BZW12360,1.0201,293,fit
+687,silicon,BZW12360,1.0269,293,fit
+690,silicon,BZW12360,1.0475,77,fit
+691,silicon,BZW12360,1.0634,77,fit
+692,silicon,BZW12360,1.0911,77,fit
+693,silicon,BZW12360,1.111,77,fit
+694,silicon,BZW12360,1.1276,77,fit
+695,silicon,BZW12360,1.1426,77,fit
+696,silicon,BZW12360,1.1558,77,fit
+697,silicon,BZW12360,1.1674,77,fit
+698,silicon,BZW12360,1.179,77,fit
+699,silicon,BZW12360,1.1897,77,fit
+469,silicon,BZW1336,0.0501,77,fit
+447,silicon,BZW1336,0.0511,293,fit
+448,silicon,BZW1336,0.7152,293,fit
+449,silicon,BZW1336,0.7675,293,fit
+450,silicon,BZW1336,0.8081,293,fit
+451,silicon,BZW1336,0.835,293,fit
+452,silicon,BZW1336,0.8544,293,fit
+453,silicon,BZW1336,0.8692,293,fit
+454,silicon,BZW1336,0.8814,293,fit
+455,silicon,BZW1336,0.892,293,fit
+456,silicon,BZW1336,0.9015,293,fit
+457,silicon,BZW1336,0.9103,293,fit
+458,silicon,BZW1336,0.9185,293,fit
+459,silicon,BZW1336,0.9262,293,fit
+460,silicon,BZW1336,0.9335,293,fit
+461,silicon,BZW1336,0.9404,293,fit
+462,silicon,BZW1336,0.9473,293,fit
+463,silicon,BZW1336,0.9538,293,fit
+464,silicon,BZW1336,0.9601,293,fit
+465,silicon,BZW1336,0.9661,293,fit
+466,silicon,BZW1336,0.9719,293,fit
+467,silicon,BZW1336,0.9772,293,fit
+470,silicon,BZW1336,1.0476,77,fit
+471,silicon,BZW1336,1.0791,77,fit
+472,silicon,BZW1336,1.1033,77,fit
+473,silicon,BZW1336,1.1251,77,fit
+474,silicon,BZW1336,1.1451,77,fit
+475,silicon,BZW1336,1.1655,77,fit
+476,silicon,BZW1336,1.1847,77,fit
+477,silicon,BZW1336,1.2028,77,fit
+478,silicon,BZW1336,1.2203,77,fit
+479,silicon,BZW1336,1.2376,77,fit
+480,silicon,BZW1336,1.2549,77,fit
+524,silicon,BZW1347,0.0523,77,fit
+502,silicon,BZW1347,0.0541,293,fit
+503,silicon,BZW1347,0.7234,293,fit
+504,silicon,BZW1347,0.7815,293,fit
+505,silicon,BZW1347,0.8271,293,fit
+506,silicon,BZW1347,0.8572,293,fit
+507,silicon,BZW1347,0.8802,293,fit
+508,silicon,BZW1347,0.8994,293,fit
+509,silicon,BZW1347,0.9162,293,fit
+510,silicon,BZW1347,0.9309,293,fit
+511,silicon,BZW1347,0.9447,293,fit
+512,silicon,BZW1347,0.958,293,fit
+513,silicon,BZW1347,0.9704,293,fit
+514,silicon,BZW1347,0.9817,293,fit
+515,silicon,BZW1347,0.9932,293,fit
+516,silicon,BZW1347,1.0043,293,fit
+517,silicon,BZW1347,1.0152,293,fit
+518,silicon,BZW1347,1.0252,293,fit
+519,silicon,BZW1347,1.0348,293,fit
+525,silicon,BZW1347,1.04,77,fit
+520,silicon,BZW1347,1.0451,293,fit
+521,silicon,BZW1347,1.0549,293,fit
+522,silicon,BZW1347,1.0636,293,fit
+526,silicon,BZW1347,1.0855,77,fit
+527,silicon,BZW1347,1.1241,77,fit
+528,silicon,BZW1347,1.1563,77,fit
+529,silicon,BZW1347,1.1828,77,fit
+530,silicon,BZW1347,1.206,77,fit
+531,silicon,BZW1347,1.2266,77,fit
+532,silicon,BZW1347,1.246,77,fit
+533,silicon,BZW1347,1.2638,77,fit
+534,silicon,BZW1347,1.2807,77,fit
+535,silicon,BZW1347,1.296,77,fit
+276,silicon,MBR4035,0.0457,293,fit
+303,silicon,MBR4035,0.0496,77,fit
+277,silicon,MBR4035,0.185,293,fit
+278,silicon,MBR4035,0.2128,293,fit
+279,silicon,MBR4035,0.24,293,fit
+280,silicon,MBR4035,0.2653,293,fit
+281,silicon,MBR4035,0.2872,293,fit
+282,silicon,MBR4035,0.3054,293,fit
+283,silicon,MBR4035,0.3213,293,fit
+284,silicon,MBR4035,0.3358,293,fit
+285,silicon,MBR4035,0.3493,293,fit
+286,silicon,MBR4035,0.3622,293,fit
+287,silicon,MBR4035,0.3745,293,fit
+288,silicon,MBR4035,0.3866,293,fit
+289,silicon,MBR4035,0.3984,293,fit
+290,silicon,MBR4035,0.4094,293,fit
+291,silicon,MBR4035,0.4206,293,fit
+292,silicon,MBR4035,0.4322,293,fit
+293,silicon,MBR4035,0.443,293,fit
+294,silicon,MBR4035,0.4536,293,fit
+295,silicon,MBR4035,0.465,293,fit
+296,silicon,MBR4035,0.4759,293,fit
+297,silicon,MBR4035,0.4866,293,fit
+298,silicon,MBR4035,0.4971,293,fit
+299,silicon,MBR4035,0.5069,293,fit
+300,silicon,MBR4035,0.5168,293,fit
+304,silicon,MBR4035,0.5192,77,fit
+301,silicon,MBR4035,0.5265,293,fit
+305,silicon,MBR4035,0.5375,77,fit
+306,silicon,MBR4035,0.5478,77,fit
+307,silicon,MBR4035,0.553,77,fit
+308,silicon,MBR4035,0.556,77,fit
+309,silicon,MBR4035,0.5585,77,fit
+310,silicon,MBR4035,0.5609,77,fit
+311,silicon,MBR4035,0.5631,77,fit
+198,silicon,1N11877R,1.2434,77,validation
+199,silicon,1N11877R,1.2523,77,validation
+200,silicon,1N11877R,1.2606,77,validation
+201,silicon,1N11877R,1.2686,77,validation
+202,silicon,1N11877R,1.2761,77,validation
+203,silicon,1N11877R,1.2833,77,validation
+204,silicon,1N11877R,1.2906,77,validation
+205,silicon,1N11877R,1.2971,77,validation
+34,silicon,1N1190,1.2052,77,validation
+35,silicon,1N1190,1.2133,77,validation
+36,silicon,1N1190,1.2219,77,validation
+37,silicon,1N1190,1.2288,77,validation
+38,silicon,1N1190,1.2358,77,validation
+39,silicon,1N1190,1.2422,77,validation
+40,silicon,1N1190,1.2484,77,validation
+41,silicon,1N1190,1.2545,77,validation
+88,silicon,1N3913,1.6651,77,validation
+89,silicon,1N3913,1.6946,77,validation
+90,silicon,1N3913,1.7238,77,validation
+91,silicon,1N3913,1.7507,77,validation
+92,silicon,1N3913,1.7777,77,validation
+93,silicon,1N3913,1.8023,77,validation
+94,silicon,1N3913,1.8271,77,validation
+95,silicon,1N3913,1.8503,77,validation
+96,silicon,1N3913,1.8722,77,validation
+144,silicon,45L120,1.2093,77,validation
+145,silicon,45L120,1.2224,77,validation
+146,silicon,45L120,1.2357,77,validation
+147,silicon,45L120,1.2477,77,validation
+148,silicon,45L120,1.2584,77,validation
+149,silicon,45L120,1.2711,77,validation
+150,silicon,45L120,1.2849,77,validation
+151,silicon,45L120,1.2954,77,validation
+152,silicon,45L120,1.3065,77,validation
+594,silicon,BYX661000,1.2734,77,validation
+575,silicon,BYX661000,1.2795,293,validation
+595,silicon,BYX661000,1.2831,77,validation
+596,silicon,BYX661000,1.2924,77,validation
+576,silicon,BYX661000,1.2969,293,validation
+597,silicon,BYX661000,1.3011,77,validation
+598,silicon,BYX661000,1.3091,77,validation
+577,silicon,BYX661000,1.3141,293,validation
+599,silicon,BYX661000,1.3164,77,validation
+700,silicon,BZW12360,1.1996,77,validation
+701,silicon,BZW12360,1.2091,77,validation
+702,silicon,BZW12360,1.2182,77,validation
+703,silicon,BZW12360,1.2268,77,validation
+704,silicon,BZW12360,1.2354,77,validation
+705,silicon,BZW12360,1.2436,77,validation
+706,silicon,BZW12360,1.2519,77,validation
+707,silicon,BZW12360,1.2601,77,validation
+708,silicon,BZW12360,1.2681,77,validation
+481,silicon,BZW1336,1.2714,77,validation
+482,silicon,BZW1336,1.2875,77,validation
+483,silicon,BZW1336,1.3033,77,validation
+484,silicon,BZW1336,1.3191,77,validation
+485,silicon,BZW1336,1.3341,77,validation
+486,silicon,BZW1336,1.349,77,validation
+487,silicon,BZW1336,1.3629,77,validation
+488,silicon,BZW1336,1.377,77,validation
+489,silicon,BZW1336,1.3906,77,validation
+536,silicon,BZW1347,1.311,77,validation
+537,silicon,BZW1347,1.3243,77,validation
+538,silicon,BZW1347,1.3372,77,validation
+539,silicon,BZW1347,1.3492,77,validation
+540,silicon,BZW1347,1.3607,77,validation
+541,silicon,BZW1347,1.3715,77,validation
+542,silicon,BZW1347,1.3815,77,validation
+543,silicon,BZW1347,1.3909,77,validation
+544,silicon,BZW1347,1.3994,77,validation
+312,silicon,MBR4035,0.565,77,validation
+313,silicon,MBR4035,0.5669,77,validation
+314,silicon,MBR4035,0.5686,77,validation
+315,silicon,MBR4035,0.57,77,validation
+316,silicon,MBR4035,0.5715,77,validation
+317,silicon,MBR4035,0.573,77,validation
+318,silicon,MBR4035,0.5741,77,validation
+319,silicon,MBR4035,0.5755,77,validation
+320,silicon,MBR4035,0.5771,77,validation
+633,silicon carbide,C6D20065A,0.0475,77,fit
+611,silicon carbide,C6D20065A,0.0497,293,fit
+612,silicon carbide,C6D20065A,0.8705,293,fit
+613,silicon carbide,C6D20065A,0.9113,293,fit
+614,silicon carbide,C6D20065A,0.9382,293,fit
+615,silicon carbide,C6D20065A,0.9596,293,fit
+616,silicon carbide,C6D20065A,0.9788,293,fit
+617,silicon carbide,C6D20065A,0.9954,293,fit
+618,silicon carbide,C6D20065A,1.0112,293,fit
+619,silicon carbide,C6D20065A,1.0258,293,fit
+620,silicon carbide,C6D20065A,1.0394,293,fit
+621,silicon carbide,C6D20065A,1.0533,293,fit
+622,silicon carbide,C6D20065A,1.0672,293,fit
+623,silicon carbide,C6D20065A,1.0803,293,fit
+624,silicon carbide,C6D20065A,1.0915,293,fit
+625,silicon carbide,C6D20065A,1.1043,293,fit
+626,silicon carbide,C6D20065A,1.1169,293,fit
+627,silicon carbide,C6D20065A,1.1298,293,fit
+634,silicon carbide,C6D20065A,1.1338,77,fit
+628,silicon carbide,C6D20065A,1.1421,293,fit
+629,silicon carbide,C6D20065A,1.1542,293,fit
+630,silicon carbide,C6D20065A,1.1663,293,fit
+635,silicon carbide,C6D20065A,1.1683,77,fit
+631,silicon carbide,C6D20065A,1.1785,293,fit
+636,silicon carbide,C6D20065A,1.193,77,fit
+637,silicon carbide,C6D20065A,1.2155,77,fit
+638,silicon carbide,C6D20065A,1.2373,77,fit
+639,silicon carbide,C6D20065A,1.2593,77,fit
+640,silicon carbide,C6D20065A,1.2798,77,fit
+641,silicon carbide,C6D20065A,1.3004,77,fit
+642,silicon carbide,C6D20065A,1.3203,77,fit
+643,silicon carbide,C6D20065A,1.3404,77,fit
+644,silicon carbide,C6D20065A,1.3602,77,fit
+645,silicon carbide,C6D20065A,1.3786,77,fit
+334,silicon carbide,FFSH3065B,0.0473,293,fit
+357,silicon carbide,FFSH3065B,0.0526,77,fit
+335,silicon carbide,FFSH3065B,0.8559,293,fit
+336,silicon carbide,FFSH3065B,0.9232,293,fit
+337,silicon carbide,FFSH3065B,0.9687,293,fit
+338,silicon carbide,FFSH3065B,1.0003,293,fit
+339,silicon carbide,FFSH3065B,1.0262,293,fit
+340,silicon carbide,FFSH3065B,1.0496,293,fit
+341,silicon carbide,FFSH3065B,1.0715,293,fit
+342,silicon carbide,FFSH3065B,1.0925,293,fit
+343,silicon carbide,FFSH3065B,1.1129,293,fit
+344,silicon carbide,FFSH3065B,1.1335,293,fit
+345,silicon carbide,FFSH3065B,1.1535,293,fit
+358,silicon carbide,FFSH3065B,1.1607,77,fit
+346,silicon carbide,FFSH3065B,1.1729,293,fit
+347,silicon carbide,FFSH3065B,1.1919,293,fit
+359,silicon carbide,FFSH3065B,1.2066,77,fit
+348,silicon carbide,FFSH3065B,1.2118,293,fit
+349,silicon carbide,FFSH3065B,1.2311,293,fit
+360,silicon carbide,FFSH3065B,1.2462,77,fit
+350,silicon carbide,FFSH3065B,1.2511,293,fit
+351,silicon carbide,FFSH3065B,1.2704,293,fit
+361,silicon carbide,FFSH3065B,1.2807,77,fit
+352,silicon carbide,FFSH3065B,1.2901,293,fit
+353,silicon carbide,FFSH3065B,1.31,293,fit
+362,silicon carbide,FFSH3065B,1.3121,77,fit
+354,silicon carbide,FFSH3065B,1.3305,293,fit
+363,silicon carbide,FFSH3065B,1.3416,77,fit
+355,silicon carbide,FFSH3065B,1.3516,293,fit
+364,silicon carbide,FFSH3065B,1.3707,77,fit
+365,silicon carbide,FFSH3065B,1.3992,77,fit
+366,silicon carbide,FFSH3065B,1.4255,77,fit
+367,silicon carbide,FFSH3065B,1.4508,77,fit
+368,silicon carbide,FFSH3065B,1.475,77,fit
+369,silicon carbide,FFSH3065B,1.4995,77,fit
+391,silicon carbide,FFSH3065B-F085,0.0503,293,fit
+414,silicon carbide,FFSH3065B-F085,0.0503,77,fit
+392,silicon carbide,FFSH3065B-F085,0.8355,293,fit
+393,silicon carbide,FFSH3065B-F085,0.9188,293,fit
+394,silicon carbide,FFSH3065B-F085,0.9665,293,fit
+395,silicon carbide,FFSH3065B-F085,0.9984,293,fit
+396,silicon carbide,FFSH3065B-F085,1.0231,293,fit
+397,silicon carbide,FFSH3065B-F085,1.046,293,fit
+398,silicon carbide,FFSH3065B-F085,1.0671,293,fit
+399,silicon carbide,FFSH3065B-F085,1.0876,293,fit
+400,silicon carbide,FFSH3065B-F085,1.1075,293,fit
+401,silicon carbide,FFSH3065B-F085,1.127,293,fit
+402,silicon carbide,FFSH3065B-F085,1.1457,293,fit
+403,silicon carbide,FFSH3065B-F085,1.1646,293,fit
+415,silicon carbide,FFSH3065B-F085,1.1663,77,fit
+404,silicon carbide,FFSH3065B-F085,1.1833,293,fit
+405,silicon carbide,FFSH3065B-F085,1.203,293,fit
+416,silicon carbide,FFSH3065B-F085,1.2105,77,fit
+406,silicon carbide,FFSH3065B-F085,1.221,293,fit
+407,silicon carbide,FFSH3065B-F085,1.2404,293,fit
+417,silicon carbide,FFSH3065B-F085,1.2457,77,fit
+408,silicon carbide,FFSH3065B-F085,1.259,293,fit
+418,silicon carbide,FFSH3065B-F085,1.2743,77,fit
+409,silicon carbide,FFSH3065B-F085,1.2778,293,fit
+410,silicon carbide,FFSH3065B-F085,1.2972,293,fit
+419,silicon carbide,FFSH3065B-F085,1.3003,77,fit
+411,silicon carbide,FFSH3065B-F085,1.3168,293,fit
+420,silicon carbide,FFSH3065B-F085,1.3263,77,fit
+412,silicon carbide,FFSH3065B-F085,1.3358,293,fit
+421,silicon carbide,FFSH3065B-F085,1.3511,77,fit
+422,silicon carbide,FFSH3065B-F085,1.3749,77,fit
+423,silicon carbide,FFSH3065B-F085,1.3971,77,fit
+424,silicon carbide,FFSH3065B-F085,1.4181,77,fit
+425,silicon carbide,FFSH3065B-F085,1.439,77,fit
+217,silicon carbide,STPSC12065DY,0.0508,293,fit
+242,silicon carbide,STPSC12065DY,0.0508,77,fit
+218,silicon carbide,STPSC12065DY,0.8168,293,fit
+219,silicon carbide,STPSC12065DY,0.8756,293,fit
+220,silicon carbide,STPSC12065DY,0.9291,293,fit
+221,silicon carbide,STPSC12065DY,0.9703,293,fit
+222,silicon carbide,STPSC12065DY,1.0046,293,fit
+223,silicon carbide,STPSC12065DY,1.0343,293,fit
+224,silicon carbide,STPSC12065DY,1.0629,293,fit
+225,silicon carbide,STPSC12065DY,1.0903,293,fit
+226,silicon carbide,STPSC12065DY,1.1172,293,fit
+243,silicon carbide,STPSC12065DY,1.1427,77,fit
+227,silicon carbide,STPSC12065DY,1.1431,293,fit
+228,silicon carbide,STPSC12065DY,1.1683,293,fit
+244,silicon carbide,STPSC12065DY,1.1819,77,fit
+229,silicon carbide,STPSC12065DY,1.1938,293,fit
+230,silicon carbide,STPSC12065DY,1.218,293,fit
+245,silicon carbide,STPSC12065DY,1.2197,77,fit
+231,silicon carbide,STPSC12065DY,1.2424,293,fit
+246,silicon carbide,STPSC12065DY,1.2528,77,fit
+232,silicon carbide,STPSC12065DY,1.2671,293,fit
+247,silicon carbide,STPSC12065DY,1.2832,77,fit
+233,silicon carbide,STPSC12065DY,1.2908,293,fit
+248,silicon carbide,STPSC12065DY,1.3115,77,fit
+234,silicon carbide,STPSC12065DY,1.314,293,fit
+235,silicon carbide,STPSC12065DY,1.3376,293,fit
+249,silicon carbide,STPSC12065DY,1.3381,77,fit
+236,silicon carbide,STPSC12065DY,1.3616,293,fit
+250,silicon carbide,STPSC12065DY,1.3624,77,fit
+237,silicon carbide,STPSC12065DY,1.3857,293,fit
+251,silicon carbide,STPSC12065DY,1.3867,77,fit
+238,silicon carbide,STPSC12065DY,1.41,293,fit
+252,silicon carbide,STPSC12065DY,1.4103,77,fit
+253,silicon carbide,STPSC12065DY,1.433,77,fit
+239,silicon carbide,STPSC12065DY,1.4339,293,fit
+254,silicon carbide,STPSC12065DY,1.4538,77,fit
+646,silicon carbide,C6D20065A,1.3978,77,validation
+647,silicon carbide,C6D20065A,1.4165,77,validation
+648,silicon carbide,C6D20065A,1.4347,77,validation
+649,silicon carbide,C6D20065A,1.4531,77,validation
+650,silicon carbide,C6D20065A,1.4718,77,validation
+651,silicon carbide,C6D20065A,1.4894,77,validation
+652,silicon carbide,C6D20065A,1.5067,77,validation
+653,silicon carbide,C6D20065A,1.5237,77,validation
+654,silicon carbide,C6D20065A,1.5405,77,validation
+370,silicon carbide,FFSH3065B,1.5225,77,validation
+371,silicon carbide,FFSH3065B,1.5421,77,validation
+372,silicon carbide,FFSH3065B,1.5624,77,validation
+373,silicon carbide,FFSH3065B,1.5825,77,validation
+374,silicon carbide,FFSH3065B,1.6004,77,validation
+375,silicon carbide,FFSH3065B,1.6177,77,validation
+376,silicon carbide,FFSH3065B,1.6334,77,validation
+377,silicon carbide,FFSH3065B,1.6481,77,validation
+378,silicon carbide,FFSH3065B,1.6619,77,validation
+426,silicon carbide,FFSH3065B-F085,1.4571,77,validation
+427,silicon carbide,FFSH3065B-F085,1.475,77,validation
+428,silicon carbide,FFSH3065B-F085,1.4925,77,validation
+429,silicon carbide,FFSH3065B-F085,1.5091,77,validation
+430,silicon carbide,FFSH3065B-F085,1.5243,77,validation
+431,silicon carbide,FFSH3065B-F085,1.5389,77,validation
+432,silicon carbide,FFSH3065B-F085,1.5528,77,validation
+433,silicon carbide,FFSH3065B-F085,1.5658,77,validation
+434,silicon carbide,FFSH3065B-F085,1.5782,77,validation
+240,silicon carbide,STPSC12065DY,1.4586,293,validation
+255,silicon carbide,STPSC12065DY,1.4735,77,validation
+256,silicon carbide,STPSC12065DY,1.4926,77,validation
+257,silicon carbide,STPSC12065DY,1.5114,77,validation
+258,silicon carbide,STPSC12065DY,1.5294,77,validation
+259,silicon carbide,STPSC12065DY,1.5469,77,validation
+260,silicon carbide,STPSC12065DY,1.5631,77,validation
+261,silicon carbide,STPSC12065DY,1.5787,77,validation
+262,silicon carbide,STPSC12065DY,1.5937,77,validation
