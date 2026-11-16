@@ -6,8 +6,7 @@ DiodeLab explores measured diode current–voltage (I–V) behaviour and estimat
 
 - **Interactive GitHub Pages website:** https://sainathgangasagare.github.io/DiodeLab-GitHub/
 - **GitHub Pages source repository:** https://github.com/SainathGangasagare/DiodeLab-GitHub
-- **Original Python/Streamlit source repository:** https://github.com/SainathGangasagare/DiodeLab
-- **Original Streamlit deployment:** https://diodelab.streamlit.app/
+
 
 The GitHub Pages website is the browser-native interactive release in this repository. The original Python project is preserved under `python-app/`; it is not replaced or edited by the browser migration.
 
